@@ -1,0 +1,195 @@
+@import
+
+url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    line-height: 1.5;
+}
+
+header{
+    overflow: auto;
+    position:fixed;
+    width: 100%;
+    background-color: #63DD3C;
+    color: white;
+    
+}
+
+h1{
+    color: #7415B6;
+    font-size: 1.5em;
+    float: left;
+    margin-left:20px;
+    margin-right:50px;
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+    padding: 20px;
+    
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav li{
+    float: left;
+}
+header nav a{
+    color: #7415B6;
+    background-color: #63DD3C;
+    text-decoration: none;
+    padding:20px;
+    display: block;
+    font-size: 0.8em;
+    transition: all 1s;
+}
+header nav a:hover{
+    color: #63DD3C;
+    background-color: white;
+}
+
+header nav i{
+   color: #7415B6;
+   font-size: 20px;
+}
+
+section, footer{
+    padding:50px 0 20px 0;
+    text-align: justify;
+}
+
+.pessoa{
+    padding: 1rem; 
+}
+
+.pessoa span{
+    color: green;
+    font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 2rem;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+.card img{
+    width: 100%;
+}
+
+.cardtitle{
+    color: green;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.descricao{
+    margin: 2rem;
+}
+
+.networking {
+    margin: 24px 0;
+}
+
+.networking a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+} 
+
+
+section#Home{
+    background-color: #4eb305;
+    color: white;
+}
+
+img#chrome{
+    float: left;
+    opacity: 1;
+    transform: translate(-200px);
+}
+
+section#Integrantes{
+    
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#Integrantes img#html5{
+    float: left;
+    opacity: 0;
+    transform: translate(-200px);
+}
+
+footer{
+    color: #7415B6;
+    background-color: #63DD3C;
+    font-weight: bold;
+}
+
+.inner{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.selected{
+    background-color: #4eb305;
+}
+
+.rotate{
+    /*animation: rot 1s linear infinite;*/
+    animation-name: rot;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+
+.rotateY{
+    animation: rotY 1s linear infinite;
+}
+
+.entrada{
+    animation: entradaAnim 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rot{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes entradaAnim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes rotY{
+    from{
+        transform: rotateY(0);
+    }
+    to{
+        transform: rotateY(359deg);
+    }
+   
+}
