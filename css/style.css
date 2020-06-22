@@ -7,8 +7,9 @@ url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
 }
 body{
     font-family: "Century Gothic", Helvetica, Arial, sans-serif;
-    font-size: 18pt;
+    font-size: 14pt;
     line-height: 1.5;
+    
 }
 
 header{
@@ -66,7 +67,11 @@ section, footer{
 }
 
 .pessoa{
-    padding: 1rem; 
+    box-shadow: 0 4px 8px 0 #63DD3C;
+    width: auto;
+    height: auto;
+    margin: 5px 10px 15px 20px;
+    display: flex;
 }
 
 .pessoa span{
@@ -75,12 +80,11 @@ section, footer{
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: 2rem;
-  text-align: center;
-  font-family: arial;
-  float: left;
+    box-shadow: 0 4px 8px 0 #7415B6;
+    max-width: 300px;
+    margin: 1rem;
+    text-align: center;
+    font-family: arial; 
 }
 
 .card img{
@@ -94,7 +98,8 @@ section, footer{
 }
 
 .descricao{
-    margin: 2rem;
+    margin: 1rem;
+    width: 60%;
 }
 
 .networking {
@@ -103,34 +108,20 @@ section, footer{
 
 .networking a{
     text-decoration: none;
-    font-size: 22px;
+   
     color: black;
 } 
-
 
 section#Home{
     background-color: #4eb305;
     color: white;
 }
 
-img#chrome{
-    float: left;
-    opacity: 1;
-    transform: translate(-200px);
-}
-
 section#Integrantes{
-    
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
     background-attachment: fixed;
-}
-
-section#Integrantes img#html5{
-    float: left;
-    opacity: 0;
-    transform: translate(-200px);
 }
 
 footer{
