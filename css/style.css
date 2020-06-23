@@ -106,6 +106,15 @@ section, footer{
     width: 60%;
 }
 
+.citacao{
+    padding: 2rem;
+}
+.citacao span{
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+}
+
 .networking {
     margin: 24px 0;
 }
@@ -114,7 +123,13 @@ section, footer{
     text-decoration: none;
    
     color: black;
-} 
+}
+
+.grupo{
+    width: 100%;
+    align-items: center;
+    border-radius: 15px;
+}
 
 section#Home{
     background-color: #4eb305;
