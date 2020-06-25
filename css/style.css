@@ -18,7 +18,6 @@ header{
     width: 100%;
     background-color: #66CC33;
     color: white;
-    
 }
 
 h1{
@@ -34,7 +33,6 @@ h2{
     text-align: center;
     font-weight: normal;
     padding: 20px;
-    
 }
 
 header nav ul{
@@ -68,7 +66,7 @@ section, footer{
 }
 
 .pessoa{
-    box-shadow: 0 4px 8px 0 #66CC33;
+    box-shadow: 0 4px 8px 0  grey;
     width: auto;
     height: auto;
     margin: 5px 10px 15px 20px;
@@ -81,18 +79,16 @@ section, footer{
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 #420F84;
+    box-shadow: 0 4px 8px 0 grey;
     max-width: 300px;
-    margin: 1rem;
+    margin: 0.5rem;
     text-align: center;
     font-family: arial;
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;  
+    width: 100%; 
 }
 
 .card img{
     width: 100%;
-    border-radius: 15px 15px 0px 0px; 
 }
 
 .cardtitle{
@@ -104,6 +100,15 @@ section, footer{
 .descricao{
     margin: 1rem;
     width: 60%;
+}
+
+.descricao p{
+    padding: 1rem 0 1rem 0;
+}
+
+.paragrafo{
+    text-indent: 1.5em;
+    line-height: 1.5;
 }
 
 .citacao{
@@ -126,28 +131,15 @@ section, footer{
 }
 
 .arcaimg{
-    max-width:200px;
-    max-height:150px;
+    max-width:150px;
+    max-height:100px;
     padding: 1rem;
 }
 
 .grupo{
     width: 100%;
     align-items: center;
-    border-radius: 15px;
     margin-top: 1rem;
-}
-
-section#Home{
-    /*background-color: #66CC33;
-    color: white;*/
-}
-
-section#Integrantes{
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 footer{
